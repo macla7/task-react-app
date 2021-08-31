@@ -1,0 +1,17 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  width: 300px;
+
+  > * {
+    margin: 2px;
+  }
+}
+
+.task {
+  display: flex;
+
+  > * {
+    margin: 2px 5px;
+  }
+}
